@@ -1,0 +1,24 @@
+{
+  "name": "node-logger",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:deepaklunked/node-logger.git",
+  "author": "Deepak Lunked <deepaklunked.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ndex.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@logtail/node": "^0.4.12",
+    "@logtail/winston": "^0.4.12",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
